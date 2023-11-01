@@ -1,0 +1,6 @@
+# netlify.toml
+
+[build]
+    environment = {
+        REACT_APP_API_KEY = "e8036d47388f2e8dcf8edda5af496a3c"
+    }

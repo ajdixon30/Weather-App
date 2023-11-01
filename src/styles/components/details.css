@@ -1,0 +1,265 @@
+@import url("https://fonts.googleapis.com/css?family=Orbitron&display=swap");
+
+/*
+	Original Theme:
+	darkest-teal: #004c4c
+	darker-teal: #006666
+	teal: #008080
+	lighter-teal: #66b2b2
+	lightest-teal: #b2d8d8
+*/
+
+/*
+	Cool Blue: (Rain)
+	darkest-blue: #005073
+	darker-blue: #107dac
+	blue: #189ad3
+	lighter-blue: #1ebbd7
+	lightest-blue: #71c7ec
+*/
+
+/*
+	Shades of Purple: (TBD)
+	darkest-purple: #660066
+	darker-purple: #800080
+	purple: #be29ec
+	lighter-purple: #d896ff
+	lightest-purple: #efbbff
+*/
+
+/*
+	Orange Light: (Sunny?)
+	darkest-orange: #ff6700
+	darker-orange: #ff9248
+	orange: #ffb38a
+	lighter-orange: #ffd7b5
+	white: #ffffff
+*/
+
+/*
+	Shades of Yellow: (Sunny?)
+	darkest-yellow: #a98600
+	darker-yellow: #dab600
+	yellow: #e9d700
+	lighter-yellow: #f8ed62
+	lightest-yellow: #fff9ae
+*/
+
+.details-section__original {
+	font-family: "Orbitron";
+	margin: 0 auto;
+	max-width: 60vw;
+	padding-bottom: 20px;
+}
+
+.details-section__original {
+	background: white;
+	color: #006666;
+}
+
+.details-section__content__original {
+	align-items: center;
+	columns: 2;
+	font-size: 36px;
+	margin: 20px 0;
+	text-align: center;
+}
+
+.details-section__content__original {
+	border-bottom: 2.5px solid #006666;
+}
+
+.details-section__content_2 {
+	font-weight: 600;
+	padding-top: 20px;
+	text-transform: capitalize;
+}
+
+.details-section__drawer {
+	text-align: center;
+}
+
+.details-section__empty {
+	color: #006666;
+	font-size: 24px;
+	padding-top: 20px;
+	text-align: center;
+}
+
+.details-section__title__original {
+	font-size: 40px;
+	font-weight: 600;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.details-section__title__original {
+	background: #006666;
+	color: white;
+}
+
+.details-section__drawer__content__original {
+	columns: 3;
+	font-size: 24px;
+	padding-top: 20px;
+}
+
+.details-section__drawer__content__original {
+	background: #006666;
+	color: white;
+}
+
+.details-section__drawer__content__high,
+.details-section__drawer__content__low,
+.details-section__drawer__content__feels,
+.details-section__drawer__content__humid,
+.details-section__drawer__content__sunset,
+.details-section__drawer__content__sunrise {
+	margin-bottom: 20px;
+}
+
+.details-section__content_2_temp {
+	cursor: default;
+}
+
+@media screen and (min-width: 320px) and (max-width: 575px) {
+	#current-btn-active, 
+	#current-btn, 
+	#five-day-btn-active, 
+	#five-day-btn,
+	#details-section__content,
+	.details-section__empty,
+	#details-section__title{
+		font-size: 14px;
+	}
+	#details-section{
+		width: 80vw;
+	}
+	.details-section__drawer__content {
+		columns: 1;
+	}
+	.details-section__drawer__content__high,
+	.details-section__drawer__content__low,
+	.details-section__drawer__content__feels,
+	.details-section__drawer__content__humid,
+	.details-section__drawer__content__sunset,
+	.details-section__drawer__content__sunrise {
+		margin-bottom: 20px;
+		font-size: 14px;
+	}
+	.details-section__content {
+		columns: 1;
+	}
+	.details-section__content_1 > svg{
+		height: 100px;
+		width: 100px;
+	}
+	.details-section__content_2 {
+		padding-bottom: 20px;
+	}
+	.details-section__drawer > div > svg {
+		height: 20px;
+		width: 20px;
+	}
+	.details-section__drawer > div > div > svg {
+		height: 20px;
+		width: 20px;
+	}
+
+}
+
+@media screen and (min-width: 576px) and (max-width: 1060px) {
+	.details-section__drawer__content {
+		columns: 2;
+	}
+	.details-section__drawer__content__high,
+	.details-section__drawer__content__low,
+	.details-section__drawer__content__feels,
+	.details-section__drawer__content__humid,
+	.details-section__drawer__content__sunset,
+	.details-section__drawer__content__sunrise {
+		margin-bottom: 30px;
+	}
+	.details-section__content {
+		columns: 1;
+	}
+	.details-section__content_2 {
+		padding-bottom: 20px;
+	}
+}
+
+.current-btn__original,
+.five-day-btn__original {
+	background: #66b2b2;
+	border: 5px solid #66b2b2;
+	color: white;
+	font-size: 40px;
+	min-width: 30vw;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.current-btn__original {
+	background: #66b2b2;
+	border: 5px solid #66b2b2;
+	color: white;
+}
+.five-day-btn__original {
+	background: #66b2b2;
+	border: 5px solid #66b2b2;
+	color: white;
+}
+.current-btn-active__original,
+.five-day-btn-active__original {
+	font-size: 40px;
+	min-width: 30vw;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.current-btn-active__original {
+	background: white;
+	border: 5px solid #66b2b2;
+	color: #66b2b2;
+}
+.five-day-btn-active__original {
+	background: white;
+	border: 5px solid #66b2b2;
+	color: #66b2b2;
+}
+
+button:hover {
+	filter: brightness(0.75);
+}
+.carousel-style {
+	font-size: 36px;
+	text-transform: capitalize;
+}
+.weather-icon {
+	margin: -40px 0;
+}
+.collapsible {
+	background-color: #eee;
+	color: #444;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.collapsible:hover {
+	background-color: #ccc;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+	padding: 0 18px;
+	display: none;
+	overflow: hidden;
+	background-color: #f1f1f1;
+}

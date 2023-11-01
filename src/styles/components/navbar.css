@@ -1,0 +1,101 @@
+/* 
+	baby-blue: #c5d9ff;
+	navy-blue: #2a22a2; 
+*/
+
+@import url("https://fonts.googleapis.com/css?family=Orbitron&display=swap");
+
+/*
+	Original Theme:
+	darkest-teal: #004c4c
+	darker-teal: #006666
+	teal: #008080
+	lighter-teal: #66b2b2
+	lightest-teal: #b2d8d8
+*/
+
+/*
+	Cool Blue: (Rain)
+	darkest-blue: #005073
+	darker-blue: #107dac
+	blue: #189ad3
+	lighter-blue: #1ebbd7
+	lightest-blue: #71c7ec
+*/
+
+/*
+	Shades of Purple: (TBD)
+	darkest-purple: #660066
+	darker-purple: #800080
+	purple: #be29ec
+	lighter-purple: #d896ff
+	lightest-purple: #efbbff
+*/
+
+/*
+	Orange Light: (Sunny?)
+	darkest-orange: #ff6700
+	darker-orange: #ff9248
+	orange: #ffb38a
+	lighter-orange: #ffd7b5
+	white: #ffffff
+*/
+
+/*
+	Shades of Yellow: (Sunny?)
+	darkest-yellow: #a98600
+	darker-yellow: #dab600
+	yellow: #e9d700
+	lighter-yellow: #f8ed62
+	lightest-yellow: #fff9ae
+*/
+
+.navbar__original,
+.navbar__rainy,
+.navbar__sunny1,
+.navbar__sunny2 {
+	font-family: "Orbitron";
+	padding: 10px 0;
+}
+
+.navbar__original {
+	background: #66b2b2;
+	border-bottom: 5px solid #008080;
+	color: #006666;
+}
+.navbar__rainy {
+	background: #1ebbd7;
+	border-bottom: 5px solid #189ad3;
+	color: #107dac;
+}
+.navbar__sunny1 {
+	background: #ffd7b5;
+	border-bottom: 5px solid #ffb38a;
+	color: #ff9248;
+}
+.navbar__sunny2 {
+	background: #f8ed62;
+	border-bottom: 5px solid #e9d700;
+	color: #dab600;
+}
+
+.nav-title {
+	padding-left: 3vw;
+	font-size: 48px;
+	font-weight: 600;
+}
+@media screen and (max-width: 575px) {
+	.nav-title{
+		font-size: 32px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.navbar {
+		left: 0%;
+		right: 0%;
+		text-align: center;
+		top: 0%;
+		width: 100%;
+	}
+}
